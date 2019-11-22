@@ -1,0 +1,304 @@
+body{
+    background-color: grey;
+}
+
+.firstBox{
+    border: 1px solid lightblue;
+    background-color: #3b5998;
+    width: 850px;
+    margin-left: 500;
+    height: 300px;
+}
+
+.fp{
+    padding-top: 30px;
+    padding-left: 50px;
+    margin: 0;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.myPic{
+    position: absolute;
+    padding-top: 169px;
+    padding-left: 10px;
+}
+
+.nyPic img{
+    border: 2px solid black;
+
+}
+
+.firstDiv{
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.firstDiv p{
+    float: left;
+    padding-top: 180px;
+    border: 1px solid red;
+
+}
+
+.c1{
+    position: absolute;
+    padding-right: 200px;
+    padding-top: 160px;
+    border: 1px solid red;
+}
+
+.secDiv{
+    display: flex;
+    padding-top: 190px;
+    padding-left: 535px;
+}
+
+.secDiv button{
+    display: flex;
+    transition: background-color .5s;
+    cursor: pointer;
+    height: 30px;
+}
+
+
+.firstInnerDiv{
+    position: absolute;
+    padding-left: 50px;
+}
+
+.secondInnderDiv{
+    display: flex;
+    padding-left: 140px;
+}
+
+
+.lastDiv{
+    display: flex;
+    margin: 43px;
+    padding-left: 150px;
+    padding-top: 1px;
+    justify-content: space-between;
+
+}
+.lastDiv button{
+    /* margin: 43px; */
+    border: 1px solid grey;
+    background-color: white;
+    padding: 10px;
+    
+    
+}
+
+button:hover {
+    background-color: #d3d3d3;
+    
+}
+
+.secondBox{
+    margin-top: 50px;
+    width: 328px;
+    margin-left: 500;
+}
+.aboutArea{
+    padding-top: 40px;
+    height: 150px;
+    padding: 25px;
+    background-color: white;
+
+}
+
+.addressArea{
+    height: 250px;
+    padding: 0px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.addressArea hr{
+    position: absolute
+    padding-right: -5px;
+    width: 100%;
+    
+}
+
+.InAbout{
+    padding-top: 0px;
+    background-color: lightgrey;
+    padding: 20px;
+    height: 20px;
+    font-size: 15px;
+}
+.inAbout i{
+    padding-left: 200px;
+}
+.secInnerAbout{
+    margin-left: 1px;
+}
+
+.secInnerAbout h4, p {
+    margin-left: 10px;
+}
+hr{
+    margin: 0px;
+}
+.appArea{
+    height: 18rem;
+    padding: 0px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.innerAppArea{
+    margin: 10px;
+    padding: 1px;
+}
+.innerAppArea i{
+    padding-left: 200px;
+}
+
+.photoArea{
+    position: relative;
+    margin-top: 10px;
+    background-color: white;
+    padding: 0px;
+}
+
+.innerPhotoArea{
+    background-color: lightgrey;
+    padding: 20px;
+    height: 25px;
+
+}
+.innerPhotoArea i{
+    padding-left: 250px;
+    margin-top: -20px;
+}
+
+.firstBlock{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+.thirdBox {
+    margin-top: -1090px;
+    padding-right: -1000px;
+    margin-left: -150px;
+  }
+
+.statusBox{
+    /* position: absolute; */
+    border: 1px solid red;
+    display: inline-block;
+    height: 300px;
+    /* padding-left: 1100px; */
+    cursor: pointer;
+    width: 200px;
+    margin-left: 1000px;
+    padding-top: -1500px;
+    width: 24%;
+    background-color: white;
+}
+
+.statusBox p {
+    margin-top: 30px;
+    padding-left: 90px;
+    font-size: 10px;
+}
+
+.statusBox img {
+    position: absolute;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.statusBox hr {
+   margin-top: 20px;
+   padding: 0%;
+}
+
+.date{
+    margin-top: -20px;
+    font-size: 10px;
+}
+
+.lcs p{
+    display: inline;
+    margin-top: 50px;
+    margin-right: 90px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.lcs{
+    margin-top: 190px;
+}
+
+.secStatusBox{
+    /* position: absolute; */
+    border: 1px solid red;
+    display: inline-block;
+    height: 300px;
+    /* padding-left: 1100px; */
+    cursor: pointer;
+    width: 200px;
+    margin-left: 1000px;
+    padding-top: -1500px;
+    width: 24%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.secStatusBox p {
+    margin-top: 30px;
+    padding-left: 90px;
+    font-size: 10px;
+}
+
+.secStatusBox img {
+    position: absolute;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.secStatusBox hr {
+   margin-top: 20px;
+   padding: 0%;
+}
+
+.secLcs p{
+    display: inline;
+    margin-top: 50px;
+    margin-right: 90px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.secLcs{
+    margin-top: 190px;
+}
+
+.date{
+    margin-top: -20px;
+    font-size: 10px;
+}
+
+.date hr{
+    margin-top: 20px;
+}
+
+#bubba{
+    position: absolute;
+    margin-top: -180px;
+}
+
+
+
+
+
